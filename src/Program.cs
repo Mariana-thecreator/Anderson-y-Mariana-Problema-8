@@ -176,6 +176,7 @@ class Program
         if (BuscarCurso(nombre) != -1)
         {
             Console.WriteLine("\nEl curso ya existe.");
+            Console.WriteLine("");
             return;
         }
 
